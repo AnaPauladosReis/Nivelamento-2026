@@ -80,20 +80,6 @@ Após o login simulado, você é redirecionado para a página inicial.
 - As imagens utilizadas são de domínio público ou obtidas de fontes gratuitas (Unsplash, iStock, etc.) apenas para fins educacionais.
 - O formulário de contato e inscrição disparam apenas um `alert()` de confirmação – nenhum dado é enviado ou armazenado.
 
----
-
-## 👥 Autoria
-
-Projeto desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas do **UniSENAI**, turma 2026, como atividade prática de front-end.
-
-- **Orientação:** Professores da disciplina de Desenvolvimento Web
-- **Contato:** voluntarios@joinvillevoluntaria.org (fictício)
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
