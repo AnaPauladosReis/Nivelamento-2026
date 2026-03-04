@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joinville Voluntária · Início</title>
+    <!-- Bootstrap 5 + ícones + fontes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%232e7d32'><path d='M50 10 L85 40 L70 80 L30 80 L15 40 Z' /></svg>">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-leaf me-2" style="color: #2e7d32;"></i>Joinville Voluntária</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <!-- Hero section com imagem de pessoa plantando -->
+        <div class="row align-items-center g-4 mb-5">
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold">Juntos por Joinville 🌱</h1>
+                <p class="lead text-secondary">Conheça projetos voluntários que transformam a cidade. Sua ajuda faz a diferença!</p>
+                <a href="projetos.html" class="btn btn-primary btn-lg px-4 me-2"><i class="fas fa-tree me-2"></i>Ver projetos</a>
+                <a href="login.html" class="btn btn-outline-success btn-lg px-4">Área voluntário</a>
+            </div>
+            <div class="col-lg-6">
+                <!-- Imagem de pessoa plantando (ainda mais explícita) -->
+                <img src="https://plus.unsplash.com/premium_photo-1681140560806-928e8b9a9a20?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Voluntária plantando muda" class="img-fluid rounded-4 shadow">
+            </div>
+        </div>
+
+        <!-- Seção com vídeo do YouTube corrigido -->
+        <div class="row my-5 align-items-center">
+            <div class="col-md-6">
+                <h2 class="mb-3">Por que Joinville precisa de você?</h2>
+                <p>Com rios, morros e a Mata Atlântica, Joinville tem uma riqueza natural que precisa de cuidado. Projetos como o <strong>Limpeza do Cachoeira</strong> e <strong>Reflorestamento do Morro do Finder</strong> dependem de mãos voluntárias.</p>
+                <a href="projetos.html" class="btn btn-outline-success"><i class="fas fa-arrow-right"></i> Conheça os projetos</a>
+            </div>
+            <div class="col-md-6">
+               <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
+					<iframe 
+						src="https://www.youtube.com/embed/XChXzxKnRr8?si=2j8mzJDtq94BZD7Q" 
+						title="YouTube video player" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+						referrerpolicy="strict-origin-when-cross-origin" 
+						allowfullscreen>
+					</iframe>
+				</div>
+    
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">🌱 Joinville Voluntária · projeto acadêmico ADS UniSENAI · 2026</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript próprio -->
+    <script src="script.js"></script>
+</body>
+</html>

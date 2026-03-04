@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joinville Voluntária · Contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%232e7d32'><path d='M50 10 L85 40 L70 80 L30 80 L15 40 Z' /></svg>">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-leaf me-2" style="color: #2e7d32;"></i>Joinville Voluntária</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projetos.html">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <h2>Fale com a gente</h2>
+                <p class="text-muted">Quer saber mais ou sugerir uma ação? Mande uma mensagem.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-envelope me-3 text-success"></i>voluntarios@joinvillevoluntaria.org</li>
+                    <li><i class="fas fa-phone me-3 text-success"></i>(47) 98877-1122</li>
+                    <li><i class="fas fa-map-pin me-3 text-success"></i>Rua do Meio Ambiente, 100 - Centro, Joinville/SC</li>
+                </ul>
+                <!-- formulário contato -->
+                <form id="contactForm" class="mt-4">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="contactName" placeholder="Seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="contactEmail" placeholder="Seu e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="contactMsg" rows="3" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div id="contactError" class="error-message"></div>
+                    <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.352087182474!2d-48.8463589!3d-26.3044624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb010c4d70d6f%3A0x5b8fc2c8c1f5b5d!2sParque%20da%20Cidade%20de%20Joinville!5e0!3m2!1spt-BR!2sbr!4v1712345678901" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">🌱 Joinville Voluntária · projeto academico ADS UniSENAI · 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
